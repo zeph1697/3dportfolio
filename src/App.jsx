@@ -5,6 +5,7 @@ import {
   Contact,
   Experience,
   Feedbacks,
+  Footer,
   Hero,
   Navbar,
   Tech,
@@ -27,6 +28,7 @@ const App = () => {
         <Feedbacks />
         <div className="relative z-0 bg-[#050816]">
           <Contact />
+          <Footer />
           <StarsCanvas />
         </div>
       </div>

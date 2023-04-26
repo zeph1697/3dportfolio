@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -50,6 +51,16 @@ const ProjectCard = ({
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
+        </div>
+
+        <div className="mt-4">
+          <a
+            className="bg-[#804dee] hover:bg-transparent hover:border-[2px] hover:border-[#804dee] rounded-md w-fit flex justify-center items-center hover:text-[#804dee] px-4 py-2"
+            href={link}
+            target="blank"
+          >
+            Live
+          </a>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">

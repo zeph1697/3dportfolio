@@ -29,6 +29,12 @@ import project1 from "../assets/portfolio1.png";
 import project2 from "../assets/portfolio2.png";
 import project3 from "../assets/portfolio4.png";
 
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { SiUpwork } from "react-icons/si";
+
 export const navLinks = [
   {
     id: "about",
@@ -219,7 +225,8 @@ const projects = [
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/zeph1697/restaurant-app",
+    link: "https://zeph1697.github.io/restaurant-app/",
   },
   {
     name: "Portfolio",
@@ -240,7 +247,8 @@ const projects = [
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/zeph1697/portfolio",
+    link: "https://zeph1697.github.io/portfolio/",
   },
   {
     name: "Fitness Website",
@@ -261,8 +269,27 @@ const projects = [
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/zeph1697/fitness-website",
+    link: "https://zeph1697.github.io/fitness-website/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const socials = [
+  {
+    link: "https://www.facebook.com/leodavincii97/",
+  },
+  {
+    link: "https://www.instagram.com/leodavincii97/",
+  },
+  {
+    link: "https://www.youtube.com/channel/UCe1SjUZsOFX0GGTa1nTsAWw",
+  },
+  {
+    link: "https://www.linkedin.com/in/viet-anh-nguyen-zeph1697/",
+  },
+  {
+    link: "https://www.upwork.com/freelancers/~018bad514b24348042",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, socials };
