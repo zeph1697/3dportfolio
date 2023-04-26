@@ -15,20 +15,24 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={`${styles.heroHeadText}`}>
             Hi, I'm <span className="text-[#915EFF]">zeph1697</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I build clean & pixel-perfect website
+          <p className={`${styles.heroSubText} mt-2 text-slate-900`}>
+            I build clean & pixel-perfect website <br /> And 3D website also, if
+            you ask :&#41;
+          </p>
+          <p className="absolute bottom-8 text-secondary">
+            *Touch the computer to rotate...
           </p>
         </div>
       </div>
 
       <ComputersCanvas />
 
-      <div className="absolute xs:bottom-10 bottom-0 w-full flex justify-center items-center">
+      <div className="absolute xs:bottom-16 bottom-0 w-full flex justify-center items-center">
         <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-slate-50 flex justify-center items-start p-1">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-slate-900 flex justify-center items-start p-1">
             <motion.div
               animate={{
                 y: [0, 32, 0],

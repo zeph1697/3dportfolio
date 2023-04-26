@@ -7,4 +7,5 @@ export default defineConfig({
   commonjsOptions: {
     esmExternals: true,
   },
+  base: "/3dportfolio/",
 });

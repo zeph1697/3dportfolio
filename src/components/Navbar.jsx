@@ -5,6 +5,9 @@ import { styles } from "../styles";
 import { navLinks } from "../constants/index";
 import { logo, menu, close } from "../assets";
 
+import { HiMenuAlt2 } from "react-icons/hi";
+import { MdClose } from "react-icons/md";
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -23,7 +26,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-12 h-12 object-contain" />
-          <p className="text-[#915EFF] text-base font-bold flex cursor-pointer">
+          <p className="text-[#915EFF] text-xl sm:text-base font-bold flex cursor-pointer">
             zeph1697 &nbsp;
             <span className="sm:block hidden text-slate-800">
               Front-end Developer
@@ -46,12 +49,12 @@ const Navbar = () => {
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
-          <img
-            src={toggle ? close : menu}
-            alt="menu"
-            className="w-[28px] h-[28px] object-contain cursor-pointer"
+          <div
+            className="w-[28px] h-[28px] flex justify-center items-center object-contain cursor-pointer text-3xl text-slate-900"
             onClick={() => setToggle(!toggle)}
-          />
+          >
+            {toggle ? <MdClose /> : <HiMenuAlt2 />}
+          </div>
 
           <div
             className={`${
@@ -63,7 +66,7 @@ const Navbar = () => {
                 <li
                   key={link.id}
                   className={`${
-                    active === link.title ? "text-white" : "text-secondary"
+                    active === link.title ? "text-white" : "text-slate-300"
                   } font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
                     setToggle(!toggle);
