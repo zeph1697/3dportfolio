@@ -4,17 +4,17 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  ai,
   html,
   css,
   reactjs,
   redux,
   tailwind,
   nodejs,
-  mongodb,
+  firebase,
   git,
   figma,
-  docker,
+  wordpress,
   meta,
   starbucks,
   tesla,
@@ -28,12 +28,6 @@ import avt3 from "../assets/avatar3.jfif";
 import project1 from "../assets/portfolio1.png";
 import project2 from "../assets/portfolio2.png";
 import project3 from "../assets/portfolio4.png";
-
-import { FaFacebookF } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
-import { SiUpwork } from "react-icons/si";
 
 export const navLinks = [
   {
@@ -83,10 +77,6 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
@@ -103,8 +93,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "Three JS",
@@ -115,12 +105,16 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "WordPress",
+    icon: wordpress,
+  },
+  {
+    name: "Illustrator",
+    icon: ai,
   },
 ];
 
@@ -274,22 +268,4 @@ const projects = [
   },
 ];
 
-const socials = [
-  {
-    link: "https://www.facebook.com/leodavincii97/",
-  },
-  {
-    link: "https://www.instagram.com/leodavincii97/",
-  },
-  {
-    link: "https://www.youtube.com/channel/UCe1SjUZsOFX0GGTa1nTsAWw",
-  },
-  {
-    link: "https://www.linkedin.com/in/viet-anh-nguyen-zeph1697/",
-  },
-  {
-    link: "https://www.upwork.com/freelancers/~018bad514b24348042",
-  },
-];
-
-export { services, technologies, experiences, testimonials, projects, socials };
+export { services, technologies, experiences, testimonials, projects };
