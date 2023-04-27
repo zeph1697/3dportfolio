@@ -20,11 +20,17 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import ai from "./tech/ai.png";
 import threejs from "./tech/threejs.svg";
+import ae from "./tech/ae.png";
+import pr from "./tech/pr.png";
+import ps from "./tech/ps.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import cc from "./company/cc.png";
+import tiktok from "./company/tiktok.png";
+import vsc from "./company/vscode.png";
 
 export {
   logo,
@@ -47,9 +53,15 @@ export {
   redux,
   tailwind,
   ai,
+  ae,
+  pr,
+  ps,
   threejs,
   meta,
   shopify,
   starbucks,
   tesla,
+  cc,
+  vsc,
+  tiktok,
 };

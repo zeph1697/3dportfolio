@@ -5,6 +5,9 @@ import {
   web,
   javascript,
   ai,
+  ae,
+  pr,
+  ps,
   html,
   css,
   reactjs,
@@ -20,6 +23,9 @@ import {
   tesla,
   shopify,
   threejs,
+  cc,
+  vsc,
+  tiktok,
 } from "../assets";
 
 import avt1 from "../assets/avatar1.jpg";
@@ -122,7 +128,7 @@ const experiences = [
   {
     title: "Web Application Develop",
     company_name: "React",
-    icon: starbucks,
+    icon: vsc,
     iconBg: "#383E56",
     date: "2021 - Present",
     points: [
@@ -147,20 +153,20 @@ const experiences = [
   {
     title: "Graphic Illustration Design",
     company_name: "Adobe Creative Cloud",
-    icon: tesla,
+    icon: cc,
     iconBg: "#E6DEDD",
     date: "2018 - Present",
     points: [
       "Create modern attractive template for website.",
       "Design logo, banners, posters, thumbnails, brand awareness, and everything matched your requirements.",
-      "Publications such as pakages, clothes, brochures, ... .",
+      "Publications such as pakages, clothes, brochures, etc .",
       "Material, flat, minimalism, abstract design.",
     ],
   },
   {
     title: "Video & Content Edit",
     company_name: "Youtube & Tiktok",
-    icon: meta,
+    icon: tiktok,
     iconBg: "#E6DEDD",
     date: "2015 - Present",
     points: [
