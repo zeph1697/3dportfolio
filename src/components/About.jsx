@@ -43,7 +43,7 @@ const About = () => {
           Introduction
         </p>
         <h2 className={`${styles.sectionHeadText} cursor-default`}>
-          ABOUT ME.
+          About me.
         </h2>
       </motion.div>
 
