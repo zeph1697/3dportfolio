@@ -68,7 +68,7 @@ const Footer = () => {
       </div>
 
       <p className="relative bottom-2 text-center text-sm">
-        &#169; zeph1697 - 2023. All right reserved.
+        &#169; zeph1697 - 2023.
       </p>
     </footer>
   );
